@@ -10,7 +10,7 @@ while True:
     if parts[0] == "X":
         break
     elif parts[0] == "A":
-        plane.ascend(int(parts[1]))
+        plane.climb(int(parts[1]))    
     elif parts[0] == "D":
         plane.descend(int(parts[1]))
 
